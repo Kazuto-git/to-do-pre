@@ -1,0 +1,10 @@
+.to-do {
+  max-inline-size: 700px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding-inline-start: 25px;
+  padding-inline-end: 25px;
+}

@@ -1,0 +1,11 @@
+.to-do__item-button {
+  flex-shrink: 0;
+  inline-size: 25px;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+}

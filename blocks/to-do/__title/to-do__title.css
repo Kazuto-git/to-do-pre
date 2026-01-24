@@ -1,0 +1,10 @@
+.to-do__title {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 73px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding-inline-start: 50px;
+  padding-inline-end: 50px;
+}

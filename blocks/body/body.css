@@ -1,0 +1,9 @@
+.body {
+  min-block-size: 100dvb;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  font-family: 'Inter', Helvetica, sans-serif;
+  color: #fff;
+  background-color: #000;
+}

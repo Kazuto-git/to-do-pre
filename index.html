@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Сервис To-Do</title>
+  </head>
+  <body class="body">
+    <main class="main">
+      <section class="to-do">
+        <h1 class="to-do__title">Список дел</h1>
+        <form class="to-do__form">
+          <input
+            class="to-do__input"
+            name="task"
+            placeholder="Следующее дело..."
+          />
+          <button class="to-do__submit">Добавить</button>
+        </form>
+        <ul class="to-do__list"></ul>
+      </section>
+    </main>
+
+    <footer class="footer">© Yandex.Praktikum 2025</footer>
+
+    <template id="to-do__item-template">
+      <li class="to-do__item">
+        <span class="to-do__item-text"></span>
+        <button class="to-do__item-button to-do__item-button_type_edit" aria-label="Редактировать"></button>
+        <button class="to-do__item-button to-do__item-button_type_duplicate" aria-label="Копировать"></button>
+        <button class="to-do__item-button to-do__item-button_type_delete" aria-label="Удалить"></button>
+      </li>
+    </template>
+
+    <script src="index.js" defer></script>
+  </body>
+</html>
